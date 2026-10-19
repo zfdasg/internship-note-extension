@@ -1,0 +1,14 @@
+{
+  "browser": "155.0.4283.62",
+  "extensionId": "eoomimjiejkfjfjblfbldiippkphfiga",
+  "url": "chrome-extension://eoomimjiejkfjfjblfbldiippkphfiga/popup.html",
+  "checks": [
+    "真实扩展页面：通过",
+    "保存提示：通过",
+    "重开恢复便签：通过",
+    "清空后重开为空：通过",
+    "2000字符限制：通过",
+    "页面无运行错误：通过"
+  ],
+  "errors": []
+}

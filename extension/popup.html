@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>简易便签</title><link rel="stylesheet" href="popup.css"><link rel="icon" href="data:,"></head>
+<body>
+  <main>
+    <h1>简易便签</h1>
+    <p>随手记录，保存在当前浏览器。</p>
+    <label for="note">便签内容</label>
+    <textarea id="note" maxlength="2000" placeholder="记下今天要做的事……"></textarea>
+    <div class="buttons"><button id="save" type="button">保存</button><button id="clear" type="button">清空</button></div>
+    <p id="status" role="status">输入内容后点击保存。</p>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>

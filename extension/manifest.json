@@ -1,0 +1,8 @@
+{
+  "manifest_version": 3,
+  "name": "简易便签",
+  "version": "1.0.0",
+  "description": "在浏览器工具栏中保存一条本地便签。",
+  "action": { "default_title": "简易便签", "default_popup": "popup.html" },
+  "background": { "service_worker": "background.js" }
+}
